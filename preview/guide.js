@@ -118,28 +118,40 @@ const copy={
       },
       {
         "title": "新增承諾",
-        "body": "點選頁面上方的「新增承諾」，在「新增我的承諾」表單填寫事項標題、我要完成什麼、怎樣確認成果及何時完成。",
+        "body": "依照以下步驟建立新承諾，完成確認並依建議調整內容。",
         "items": [
           [
-            "先儲存草稿",
-            "至少寫明要做的事，再點選「儲存草稿，開啟確認卡片」。第一次儲存的文字會保留為「主管自行提出」的原文。"
+            "新增並儲存草稿",
+            "點選「新增承諾」，填寫事項標題、我要完成什麼、怎樣確認成果及何時完成。尚未完整的內容，可先寫下初步想法，再點選「儲存草稿，開啟確認卡片」。",
+            {
+              "image": "add-draft-20261006.png",
+              "alt": "新增並儲存草稿",
+              "local": true,
+              "annotated": true
+            }
           ],
           [
-            "確認新承諾",
-            "開啟確認卡片後補齊內容並核對，再由本人確認納入追蹤。"
+            "參考 AI 提醒，補齊並確認承諾",
+            "參考確認卡片上的 AI 提醒，補齊工作內容、可核對的成果及完成時間，並選擇是否涉及特區建設。核對完成後，按「確認並看下一項」。必填欄位未填妥時，無法確認承諾；儲存草稿不代表已確認。",
+            {
+              "image": "add-confirm-20261006.png",
+              "alt": "參考 AI 提醒，補齊並確認承諾",
+              "local": true,
+              "annotated": true
+            }
+          ],
+          [
+            "查看內控部提醒，修改承諾內容",
+            "承諾確認後，內控部會初步檢視，並針對對應欄位提出建議。請閱讀「內控部提醒」，再點選「修改承諾內容」，依建議補充或調整工作內容、成果及完成時間。",
+            {
+              "image": "add-review-20261006.png",
+              "alt": "查看內控部提醒，修改承諾內容",
+              "local": true,
+              "annotated": true
+            }
           ]
         ],
-        "image": "test-add.png",
-        "alt": "陳美德測試區的新增承諾表單",
-        "marks": [
-          [
-            3,
-            47,
-            56,
-            50,
-            "1"
-          ]
-        ]
+        "after": "確認承諾後，仍須依週別回報進度。"
       },
       {
         "title": "建議轉交承諾",
@@ -394,19 +406,40 @@ const copy={
       },
       {
         "title": "新增承诺",
-        "body": "点击页面上方的「新增承諾」，在「新增我的承諾」表单填写事项标题、我要完成什么、怎样确认成果及何时完成。",
+        "body": "按照以下步骤建立新承诺，完成确认并依建议调整内容。",
         "items": [
           [
-            "先保存草稿",
-            "至少写明要做的事，再点击「儲存草稿，開啟確認卡片」。首次保存的文字会保留为「主管自行提出」的原文。"
+            "新增并保存草稿",
+            "点击「新增承諾」，填写事项标题、我要完成什么、怎样确认成果及何时完成。尚未完整的内容，可先写下初步想法，再点击「儲存草稿，開啟確認卡片」。",
+            {
+              "image": "add-draft-20261006.png",
+              "alt": "新增并保存草稿",
+              "local": true,
+              "annotated": true
+            }
           ],
           [
-            "确认新承诺",
-            "打开确认卡片后补齐内容并核对，再由本人确认纳入跟踪。"
+            "参考 AI 提醒，补齐并确认承诺",
+            "参考确认卡片上的 AI 提醒，补齐工作内容、可核对的成果及完成时间，并选择是否涉及特区建设。核对完成后，点击「確認並看下一項」。必填字段未填妥时，无法确认承诺；保存草稿不代表已确认。",
+            {
+              "image": "add-confirm-20261006.png",
+              "alt": "参考 AI 提醒，补齐并确认承诺",
+              "local": true,
+              "annotated": true
+            }
+          ],
+          [
+            "查看内控部提醒，修改承诺内容",
+            "承诺确认后，内控部会初步检查，并针对对应字段提出建议。请阅读「內控部提醒」，再点击「修改承諾內容」，按建议补充或调整工作内容、成果及完成时间。",
+            {
+              "image": "add-review-20261006.png",
+              "alt": "查看内控部提醒，修改承诺内容",
+              "local": true,
+              "annotated": true
+            }
           ]
         ],
-        "image": "test-add.png",
-        "alt": "陈美德测试区的新增承诺表单"
+        "after": "确认承诺后，仍须按周别回报进度。"
       },
       {
         "title": "建议转交承诺",
@@ -643,19 +676,40 @@ const copy={
       },
       {
         "title": "Add a commitment",
-        "body": "Select “新增承諾” at the top of the page. In “新增我的承諾”, complete the item title, what you will deliver, how results will be verified, and when it will be completed.",
+        "body": "Follow these steps to create, confirm, and update a new commitment.",
         "items": [
           [
-            "Save a draft",
-            "Describe at least what you will do, then select “儲存草稿，開啟確認卡片”. The first saved text is retained as the original manager-proposed commitment."
+            "Add a commitment and save a draft",
+            "Select “新增承諾” (Add commitment). Enter the title, what you will deliver, how results will be verified, and when the work will be completed. If details are not ready, start with your initial ideas and select “儲存草稿，開啟確認卡片” (Save draft and open confirmation card).",
+            {
+              "image": "add-draft-20261006.png",
+              "alt": "Add a commitment and save a draft",
+              "local": true,
+              "annotated": true
+            }
           ],
           [
-            "Confirm the new commitment",
-            "Complete and review the confirmation card, then confirm it yourself to add it to tracking."
+            "Read AI reminders, complete the fields, and confirm",
+            "Use the AI reminders to clarify the work, verifiable outcomes, and completion date. Select whether the commitment involves special-zone construction. After reviewing the content, select “確認並看下一項” (Confirm and view next). All required fields must be completed before confirmation. Saving a draft does not confirm the commitment.",
+            {
+              "image": "add-confirm-20261006.png",
+              "alt": "Read AI reminders, complete the fields, and confirm",
+              "local": true,
+              "annotated": true
+            }
+          ],
+          [
+            "Read Internal Control reminders and edit the commitment",
+            "After confirmation, Internal Control will review the commitment and provide suggestions for the relevant fields. Read “內控部提醒” (Internal Control reminders), then select “修改承諾內容” (Edit commitment content) to clarify or update the work, outcomes, and completion date.",
+            {
+              "image": "add-review-20261006.png",
+              "alt": "Read Internal Control reminders and edit the commitment",
+              "local": true,
+              "annotated": true
+            }
           ]
         ],
-        "image": "test-add.png",
-        "alt": "Add commitment form in the Chen Meide test area"
+        "after": "After confirming a commitment, report progress each week."
       },
       {
         "title": "Suggest transferring a commitment",
@@ -818,9 +872,9 @@ const guideMarks={
 };
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const emailLinks=s=>esc(s).replace(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi,email=>`<a href="mailto:${email}">${email}</a>`);
-function picture(s,i,k=0,item=false){const key=`${i}:${item?'item':'step'}:${k}`;const marks=guideMarks[key]||guideMarks[`${i}:step`]||s.marks||[];return `<span class="image-wrap"><img src="${isPreview?'../':''}assets/${s.image}?v=7" alt="${esc(s.alt)}" ${i?'loading="lazy"':''}>${marks.map(m=>`<span aria-hidden="true" class="mark" style="left:${m[0]}%;top:${m[1]}%;width:${m[2]}%;height:${m[3]}%"><em>${m[4]}</em></span>`).join('')}</span>`;}
+function picture(s,i,k=0,item=false){const key=`${i}:${item?'item':'step'}:${k}`;const marks=s.annotated?[]:guideMarks[key]||guideMarks[`${i}:step`]||s.marks||[];return `<span class="image-wrap"><img src="${s.local?s.image:(isPreview?'../':'')+'assets/'+s.image}?v=7" alt="${esc(s.alt)}" ${i?'loading="lazy"':''}>${marks.map(m=>`<span aria-hidden="true" class="mark" style="left:${m[0]}%;top:${m[1]}%;width:${m[2]}%;height:${m[3]}%"><em>${m[4]}</em></span>`).join('')}</span>`;}
 function render(lang){current=lang;const c=copy[lang];document.documentElement.lang=lang;document.body.classList.toggle('en-ui',lang==='en');document.title=(isPreview?c.testTitle+' | ':'')+c.nav[pageIndex]+' | '+c.title;document.querySelector('meta[name=description]').content=c.lead;document.querySelectorAll('[data-i]').forEach(e=>e.textContent=c[e.dataset.i]);document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));document.querySelectorAll('.system-link').forEach(a=>a.href=SYSTEM);document.querySelector('.steps-nav').setAttribute('aria-label',lang==='en'?'Guide steps':lang==='zh-Hans'?'教学步骤':'教學步驟');document.querySelector('.steps-nav').innerHTML=c.nav.map((n,i)=>{const disabled=!isPreview&&i>=2;const content=`<b>${String(i+1).padStart(2,'0')}</b><strong>${esc(n)}</strong><span>${esc(disabled?c.development:c.navDesc[i])}</span>`;return disabled?`<div class="nav-disabled" aria-disabled="true">${content}</div>`:`<a href="${pageFiles[i]}" data-group="${i}" aria-current="${i===activeGroup?'page':'false'}">${content}</a>`}).join('');
-document.querySelector('#sections').innerHTML=groups.filter((_,gi)=>gi===pageIndex).map((g)=>{const gi=pageIndex;return `<div class="guide-group ${gi===activeGroup?'active':''}" id="${g.id}" ${gi===activeGroup?'':'hidden'}><div class="group-heading"><span>${String(gi+1).padStart(2,'0')}</span><h2>${esc(c.nav[gi])}</h2></div>${c.steps.slice(g.start,g.end).map((s,j)=>{const i=g.start+j;const shots=s.images||[s];return `<section class="step ${s.pending?'pending':''}" id="${ids[i]}"><span class="step-num">${String(j+1).padStart(2,'0')}${s.pending?'<span class="pending-label">PENDING</span>':''}</span><h3 class="step-title">${esc(s.title)}</h3><p>${esc(s.body)}</p>${s.items?`<ol class="items">${s.items.map(([t,b,shot],itemIndex)=>`<li><h3>${esc(t)}</h3><p>${esc(b)}</p>${shot?`<figure class="shot item-shot"><button class="shot-button" type="button" data-image="${i}" data-item="${itemIndex}" aria-label="${esc(c.zoom+': '+shot.alt)}">${picture(shot,i,itemIndex,true)}</button><figcaption>${esc(c.zoom)}</figcaption></figure>`:''}</li>`).join('')}</ol>`:''}${s.compare?`<div class="comparison">${s.compare.map(([t,b])=>`<div><h3>${esc(t)}</h3><p>${esc(b)}</p></div>`).join('')}</div>`:''}${s.note?`<p class="note important">${emailLinks(s.note)}</p>`:''}${s.after?`<p>${esc(s.after)}</p>`:''}${s.image||s.images?shots.map((shot,k)=>`<figure class="shot"><button class="shot-button" type="button" data-image="${i}" data-shot="${k}" aria-label="${esc(c.zoom+': '+shot.alt)}">${picture(shot,i,k)}</button><figcaption>${esc(c.zoom)}</figcaption></figure>`).join(''):''}</section>`}).join('')}<a class="screen-back" href="#top">${esc(c.back)} ↑</a></div>`}).join('');
+document.querySelector('#sections').innerHTML=groups.filter((_,gi)=>gi===pageIndex).map((g)=>{const gi=pageIndex;return `<div class="guide-group ${gi===activeGroup?'active':''}" id="${g.id}" ${gi===activeGroup?'':'hidden'}><div class="group-heading"><span>${String(gi+1).padStart(2,'0')}</span><h2>${esc(c.nav[gi])}</h2></div>${gi===1?`<nav class="section-shortcuts" aria-label="${lang==='en'?'Section shortcuts':lang==='zh-Hans'?'段落捷径':'段落捷徑'}">${c.steps.slice(1,5).map((s,n)=>`<a href="#${ids[n+1]}"><span>${String(n+1).padStart(2,'0')}</span> ${esc(s.title)}</a>`).join('')}</nav>`:''}${c.steps.slice(g.start,g.end).map((s,j)=>{const i=g.start+j;const shots=s.images||[s];return `<section class="step ${s.pending?'pending':''}" id="${ids[i]}"><span class="step-num">${String(j+1).padStart(2,'0')}${s.pending?'<span class="pending-label">PENDING</span>':''}</span><h3 class="step-title">${esc(s.title)}</h3><p>${esc(s.body)}</p>${s.items?`<ol class="items">${s.items.map(([t,b,shot],itemIndex)=>`<li><h3>${esc(t)}</h3><p>${esc(b)}</p>${shot?`<figure class="shot item-shot"><button class="shot-button" type="button" data-image="${i}" data-item="${itemIndex}" aria-label="${esc(c.zoom+': '+shot.alt)}">${picture(shot,i,itemIndex,true)}</button><figcaption>${esc(c.zoom)}</figcaption></figure>`:''}</li>`).join('')}</ol>`:''}${s.compare?`<div class="comparison">${s.compare.map(([t,b])=>`<div><h3>${esc(t)}</h3><p>${esc(b)}</p></div>`).join('')}</div>`:''}${s.note?`<p class="note important">${emailLinks(s.note)}</p>`:''}${s.after?`<p>${esc(s.after)}</p>`:''}${s.image||s.images?shots.map((shot,k)=>`<figure class="shot"><button class="shot-button" type="button" data-image="${i}" data-shot="${k}" aria-label="${esc(c.zoom+': '+shot.alt)}">${picture(shot,i,k)}</button><figcaption>${esc(c.zoom)}</figcaption></figure>`).join(''):''}${gi===1?`<a class="section-back" href="#maintain">${esc(c.back)} ↑</a>`:''}</section>`}).join('')}<a class="screen-back" href="#top">${esc(c.back)} ↑</a></div>`}).join('');
 if(!isPreview&&pageIndex>=2)document.querySelector('#sections').innerHTML=`<section class="step development-message"><span class="step-num">${String(pageIndex+1).padStart(2,'0')} · ${esc(c.nav[pageIndex])}</span><h2>${esc(c.development)}</h2><p>${esc(c.developmentText)}</p><a href="index.html">${esc(c.nav[0])}</a></section>`;document.querySelector('#close-zoom').textContent=c.close;}
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{try{localStorage.setItem('commitment-guide-language',b.dataset.lang)}catch{}render(b.dataset.lang)}));
 const dialog=document.querySelector('#zoom');
