@@ -144,7 +144,7 @@ const copy={
             "查看內控部提醒，修改承諾內容",
             "承諾確認後，內控部會初步檢視，並針對對應欄位提出建議。請閱讀「內控部提醒」，再點選「修改承諾內容」，依建議補充或調整工作內容、成果及完成時間。",
             {
-              "image": "add-review-20261006.png",
+              "image": "add-review-20261007.png",
               "alt": "查看內控部提醒，修改承諾內容",
               "local": true,
               "annotated": true
@@ -432,7 +432,7 @@ const copy={
             "查看内控部提醒，修改承诺内容",
             "承诺确认后，内控部会初步检查，并针对对应字段提出建议。请阅读「內控部提醒」，再点击「修改承諾內容」，按建议补充或调整工作内容、成果及完成时间。",
             {
-              "image": "add-review-20261006.png",
+              "image": "add-review-20261007.png",
               "alt": "查看内控部提醒，修改承诺内容",
               "local": true,
               "annotated": true
@@ -702,7 +702,7 @@ const copy={
             "Read Internal Control reminders and edit the commitment",
             "After confirmation, Internal Control will review the commitment and provide suggestions for the relevant fields. Read “內控部提醒” (Internal Control reminders), then select “修改承諾內容” (Edit commitment content) to clarify or update the work, outcomes, and completion date.",
             {
-              "image": "add-review-20261006.png",
+              "image": "add-review-20261007.png",
               "alt": "Read Internal Control reminders and edit the commitment",
               "local": true,
               "annotated": true
