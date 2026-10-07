@@ -37,36 +37,55 @@ const copy={
         "items": [
           [
             "輸入公司帳號",
-            "輸入您的公司 Google 帳號；若出現帳號清單，請選擇公司帳號。"
+            "輸入您的公司 Google 帳號；若出現帳號清單，請選擇公司帳號。",
+            {
+              "image": "google-login.png",
+              "alt": "Google 公司帳號登入畫面",
+              "customMarks": true,
+              "marks": [
+                [
+                  51.6,
+                  33,
+                  33,
+                  8,
+                  "1"
+                ],
+                [
+                  78.7,
+                  63.4,
+                  6.2,
+                  6.1,
+                  "2"
+                ]
+              ]
+            }
           ],
           [
-            "按「下一步」",
+            "完成登入",
             "依畫面指示輸入密碼；若出現身分驗證，請完成驗證。"
           ],
           [
             "確認登入身分",
-            "進入系統後，確認顯示的是您本人的姓名。"
+            "進入系統後，確認顯示的是您本人的姓名。",
+            {
+              "image": "login-identity-20261007.png",
+              "alt": "確認登入身分",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  89,
+                  38,
+                  9,
+                  26,
+                  "1"
+                ]
+              ],
+              "ratio": "10.5 / 1"
+            }
           ]
         ],
-        "note": "帳號、密碼或系統權限有問題，請聯絡小波：bob.ren@manhattansez.com。",
-        "image": "google-login.png",
-        "alt": "Google 公司帳號登入畫面",
-        "marks": [
-          [
-            51.6,
-            33,
-            33,
-            8,
-            "1"
-          ],
-          [
-            78.7,
-            63.4,
-            6.2,
-            6.1,
-            "2"
-          ]
-        ]
+        "note": "帳號、密碼或系統權限有問題，請聯絡小波：bob.ren@manhattansez.com。"
       },
       {
         "title": "填寫並確認自己的承諾",
@@ -199,59 +218,141 @@ const copy={
         ]
       },
       {
-        "title": "填寫每週回報",
-        "body": "選擇要回報的週別，再從「本週待填」或「待填寫」開啟承諾，完成本週回報。",
+        "title": "填寫與暫存",
+        "body": "選擇要回報的週別，從「本週待填」或「待填寫」開啟承諾，填寫本週回報。",
         "items": [
           [
-            "填寫本週進度",
-            "說明本週已完成、持續辦理或等待回覆的進度；此欄必填。"
+            "填寫本週進度與下週預計",
+            "「本週進度」及「下週預計」皆為必填。說明本週已完成、進行中或等待回覆的狀況，並填寫下週預計推進的工作。可參考左側「上週回報」，使用複製後仍須核對並更新本週內容。",
+            {
+              "image": "daily-fill-20261007.jpg",
+              "alt": "本週進度、下週預計與暫存草稿",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  43,
+                  10,
+                  55,
+                  29,
+                  "1"
+                ],
+                [
+                  43,
+                  48,
+                  55,
+                  29,
+                  "2"
+                ],
+                [
+                  72.5,
+                  88.5,
+                  11,
+                  10,
+                  "3"
+                ]
+              ]
+            }
           ],
           [
-            "填寫下週預計",
-            "寫明下週預計推進的工作；此欄必填。"
+            "暫存每日進度",
+            "可每天補充目前狀況，按「暫存草稿」保存。草稿可繼續修改；暫存不代表已提交，完成後仍須按「提交本週回報」。"
           ],
           [
-            "標示是否需要協助",
-            "需要協調時勾選「需要協助／待協調」；也可展開「新增佐證／補充資料」附上資料。"
-          ],
-          [
-            "暫存或提交",
-            "尚未完成時按「暫存草稿」；確認內容無誤後按「提交本週回報」。"
+            "補充協助需求與佐證資料",
+            "如需協調，勾選「需要協助／待協調」，說明需要誰協助或決定什麼。展開「新增佐證／補充資料（選填）」可填寫補充說明與本週佐證 NAS 路徑。若專案 NAS 資料夾標示必填，須補齊後才能提交。",
+            {
+              "image": "daily-support-20261007.jpg",
+              "alt": "佐證資料、本週 NAS 路徑與專案資料夾",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  43,
+                  7,
+                  55,
+                  48,
+                  "1"
+                ],
+                [
+                  0.5,
+                  88,
+                  98,
+                  11,
+                  "2"
+                ]
+              ]
+            }
           ]
-        ],
-        "image": "test-weekly-edit.png",
-        "alt": "陳美德測試區的每週回報填寫畫面"
+        ]
       },
       {
-        "title": "確認提交結果與回覆留言",
-        "body": "提交後，確認承諾卡片顯示「本週已回覆」，並查看版本時間與留言。",
+        "title": "提交與修改回報",
+        "body": "完成填寫後提交回報，再確認系統顯示的狀態。",
         "items": [
           [
-            "確認提交狀態",
-            "「本週已回覆」代表本週週報已提交，不代表整項承諾已完成。"
+            "提交本週回報",
+            "核對本週進度、下週預計及必要資料，按「提交本週回報」。",
+            {
+              "image": "daily-fill-20261007.jpg",
+              "alt": "提交本週回報按鈕",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  83.7,
+                  88.5,
+                  14.5,
+                  10,
+                  "1"
+                ]
+              ]
+            }
           ],
           [
-            "修改已提交內容",
-            "需要修正時按「修改本週回報」，更新內容後再次提交。"
+            "確認提交結果",
+            "確認該項目顯示「本週已回覆」。這代表所選週的回報已提交，不代表整項承諾已完成。",
+            {
+              "image": "daily-submitted-20261007.jpg",
+              "alt": "已提交回報狀態與截止後鎖定提示",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  88,
+                  16,
+                  10,
+                  7,
+                  "1"
+                ],
+                [
+                  1,
+                  1,
+                  97,
+                  13,
+                  "2"
+                ]
+              ]
+            }
           ],
           [
-            "查看版本紀錄",
-            "展開「本週版本紀錄」，核對提交版本與時間。"
-          ],
-          [
-            "查看並回覆留言",
-            "若台北總部有留言，請在「留言與回覆」區查看並處理。"
+            "修改已提交回報",
+            "截止前若需修正，按「修改本週回報」，更新內容後再次提交。截止後已提交內容會鎖定，仍可在下方回覆管理者留言。",
+            {
+              "image": "test-weekly-version.png",
+              "alt": "截止前的修改本週回報按鈕",
+              "customMarks": true,
+              "marks": [
+                [
+                  85,
+                  38,
+                  10,
+                  8,
+                  "1"
+                ]
+              ]
+            }
           ]
-        ],
-        "images": [
-          {
-            "image": "test-weekly-submitted.png",
-            "alt": "陳美德測試區的本週已回覆狀態與週報內容"
-          },
-          {
-            "image": "test-weekly-version.png",
-            "alt": "陳美德測試區的本週版本紀錄與留言區"
-          }
         ]
       },
       {
@@ -297,6 +398,24 @@ const copy={
         ],
         "image": "test-overview.png",
         "alt": "回報週別選單與截止時間位置"
+      },
+      {
+        "title": "查看與回覆留言",
+        "body": "回報後，持續查看「留言與回覆」，處理台北總部提出的問題。",
+        "items": [
+          [
+            "查看留言",
+            "開啟相關承諾，至「留言與回覆」閱讀問題與需補充的事項；若顯示「尚無留言」，目前不需回覆。"
+          ],
+          [
+            "填寫並送出回覆",
+            "在對應留言下方填寫處理狀況或補充說明，核對後按「送出回覆」。"
+          ],
+          [
+            "確認回覆結果",
+            "確認回覆已顯示在該則留言下方。若另需調整本週回報，請依「提交與修改回報」操作。"
+          ]
+        ]
       }
     ],
     "development": "開發中",
@@ -341,20 +460,55 @@ const copy={
         "items": [
           [
             "输入公司账号",
-            "输入您的公司 Google 账号；若出现账号列表，请选择公司账号。"
+            "输入您的公司 Google 账号；若出现账号列表，请选择公司账号。",
+            {
+              "image": "google-login.png",
+              "alt": "Google 公司账号登录画面",
+              "customMarks": true,
+              "marks": [
+                [
+                  51.6,
+                  33,
+                  33,
+                  8,
+                  "1"
+                ],
+                [
+                  78.7,
+                  63.4,
+                  6.2,
+                  6.1,
+                  "2"
+                ]
+              ]
+            }
           ],
           [
-            "点击「下一步」",
+            "完成登录",
             "按照画面提示输入密码；若出现身份验证，请完成验证。"
           ],
           [
             "确认登录身份",
-            "进入系统后，确认显示的是您本人的姓名。"
+            "进入系统后，确认显示的是您本人的姓名。",
+            {
+              "image": "login-identity-20261007.png",
+              "alt": "确认登入身份",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  89,
+                  38,
+                  9,
+                  26,
+                  "1"
+                ]
+              ],
+              "ratio": "10.5 / 1"
+            }
           ]
         ],
-        "note": "账号、密码或系统权限有问题，请联系小波：bob.ren@manhattansez.com。",
-        "image": "google-login.png",
-        "alt": "Google 公司账号登录画面"
+        "note": "账号、密码或系统权限有问题，请联系小波：bob.ren@manhattansez.com。"
       },
       {
         "title": "填写并确认自己的承诺",
@@ -469,59 +623,141 @@ const copy={
         "alt": "陈美德测试区的申请移除表单"
       },
       {
-        "title": "填写每周回报",
-        "body": "选择要回报的周别，再从「本周待填」或「待填写」打开承诺，完成本周回报。",
+        "title": "填写与暂存",
+        "body": "选择要汇报的周别，从「本週待填」或「待填寫」打开承诺，填写本周汇报。",
         "items": [
           [
-            "填写本周进度",
-            "说明本周已完成、持续办理或等待回复的进度；此字段必填。"
+            "填写本周进度与下周计划",
+            "「本週進度」及「下週預計」均为必填。说明本周已完成、进行中或等待回复的情况，并填写下周计划推进的工作。可参考左侧「上週回報」，复制后仍须核对并更新本周内容。",
+            {
+              "image": "daily-fill-20261007.jpg",
+              "alt": "本週進度、下週預計與暫存草稿",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  43,
+                  10,
+                  55,
+                  29,
+                  "1"
+                ],
+                [
+                  43,
+                  48,
+                  55,
+                  29,
+                  "2"
+                ],
+                [
+                  72.5,
+                  88.5,
+                  11,
+                  10,
+                  "3"
+                ]
+              ]
+            }
           ],
           [
-            "填写下周预计",
-            "写明下周预计推进的工作；此字段必填。"
+            "暂存每日进度",
+            "可每天补充目前情况，点击「暫存草稿」保存。草稿可以继续修改；暂存不代表已提交，完成后仍须点击「提交本週回報」。"
           ],
           [
-            "标示是否需要协助",
-            "需要协调时勾选「需要協助／待協調」；也可展开「新增佐證／補充資料」附上资料。"
-          ],
-          [
-            "暂存或提交",
-            "尚未完成时点击「暫存草稿」；确认内容无误后点击「提交本週回報」。"
+            "补充协助需求与佐证资料",
+            "如需协调，勾选「需要協助／待協調」，说明需要谁协助或决定什么。展开「新增佐證／補充資料（選填）」可填写补充说明与本周佐证 NAS 路径。如果项目 NAS 文件夹标示必填，须补齐后才能提交。",
+            {
+              "image": "daily-support-20261007.jpg",
+              "alt": "佐證資料、本週 NAS 路徑與專案資料夾",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  43,
+                  7,
+                  55,
+                  48,
+                  "1"
+                ],
+                [
+                  0.5,
+                  88,
+                  98,
+                  11,
+                  "2"
+                ]
+              ]
+            }
           ]
-        ],
-        "image": "test-weekly-edit.png",
-        "alt": "陈美德测试区的每周回报填写画面"
+        ]
       },
       {
-        "title": "确认提交结果与回复留言",
-        "body": "提交后，确认承诺卡片显示「本週已回覆」，并查看版本时间与留言。",
+        "title": "提交与修改汇报",
+        "body": "完成填写后提交汇报，再确认系统显示的状态。",
         "items": [
           [
-            "确认提交状态",
-            "「本週已回覆」代表本周周报已提交，不代表整项承诺已完成。"
+            "提交本周汇报",
+            "核对本周进度、下周计划及必要资料，点击「提交本週回報」。",
+            {
+              "image": "daily-fill-20261007.jpg",
+              "alt": "提交本週回報按鈕",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  83.7,
+                  88.5,
+                  14.5,
+                  10,
+                  "1"
+                ]
+              ]
+            }
           ],
           [
-            "修改已提交内容",
-            "需要修正时点击「修改本週回報」，更新内容后再次提交。"
+            "确认提交结果",
+            "确认该项目显示「本週已回覆」。这代表所选周的汇报已提交，不代表整项承诺已完成。",
+            {
+              "image": "daily-submitted-20261007.jpg",
+              "alt": "已提交回報狀態與截止後鎖定提示",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  88,
+                  16,
+                  10,
+                  7,
+                  "1"
+                ],
+                [
+                  1,
+                  1,
+                  97,
+                  13,
+                  "2"
+                ]
+              ]
+            }
           ],
           [
-            "查看版本记录",
-            "展开「本週版本紀錄」，核对提交版本与时间。"
-          ],
-          [
-            "查看并回复留言",
-            "若台北总部有留言，请在「留言與回覆」区查看并处理。"
+            "修改已提交汇报",
+            "截止前如需修正，点击「修改本週回報」，更新内容后再次提交。截止后已提交内容会锁定，仍可在下方回复管理者留言。",
+            {
+              "image": "test-weekly-version.png",
+              "alt": "截止前的修改本週回報按鈕",
+              "customMarks": true,
+              "marks": [
+                [
+                  85,
+                  38,
+                  10,
+                  8,
+                  "1"
+                ]
+              ]
+            }
           ]
-        ],
-        "images": [
-          {
-            "image": "test-weekly-submitted.png",
-            "alt": "陈美德测试区的本周已回复状态与周报内容"
-          },
-          {
-            "image": "test-weekly-version.png",
-            "alt": "陈美德测试区的本周版本记录与留言区"
-          }
         ]
       },
       {
@@ -567,6 +803,24 @@ const copy={
         ],
         "image": "test-overview.png",
         "alt": "回报周别菜单与截止时间位置"
+      },
+      {
+        "title": "查看与回复留言",
+        "body": "汇报后，持续查看「留言與回覆」，处理台北总部提出的问题。",
+        "items": [
+          [
+            "查看留言",
+            "打开相关承诺，到「留言與回覆」阅读问题与需补充的事项；若显示「尚無留言」，目前无需回复。"
+          ],
+          [
+            "填写并发送回复",
+            "在对应留言下方填写处理情况或补充说明，核对后点击「送出回覆」。"
+          ],
+          [
+            "确认回复结果",
+            "确认回复已显示在该则留言下方。如另需调整本周汇报，请按照「提交与修改汇报」操作。"
+          ]
+        ]
       }
     ],
     "development": "开发中",
@@ -611,20 +865,55 @@ const copy={
         "items": [
           [
             "Enter your company account",
-            "Enter your company Google account. If an account list appears, choose your company account."
+            "Enter your company Google account. If an account list appears, choose your company account.",
+            {
+              "image": "google-login.png",
+              "alt": "Google sign-in for a company account",
+              "customMarks": true,
+              "marks": [
+                [
+                  51.6,
+                  33,
+                  33,
+                  8,
+                  "1"
+                ],
+                [
+                  78.7,
+                  63.4,
+                  6.2,
+                  6.1,
+                  "2"
+                ]
+              ]
+            }
           ],
           [
-            "Select “Next” (下一步)",
+            "Complete sign-in",
             "Enter your password as instructed. Complete any identity verification requested by Google."
           ],
           [
             "Check your identity",
-            "After entering the system, check that the displayed name is yours."
+            "After entering the system, check that the displayed name is yours.",
+            {
+              "image": "login-identity-20261007.png",
+              "alt": "Check your name after sign-in",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  89,
+                  38,
+                  9,
+                  26,
+                  "1"
+                ]
+              ],
+              "ratio": "10.5 / 1"
+            }
           ]
         ],
-        "note": "For account, password or system access issues, contact Bob: bob.ren@manhattansez.com.",
-        "image": "google-login.png",
-        "alt": "Google sign-in for a company account"
+        "note": "For account, password or system access issues, contact Bob: bob.ren@manhattansez.com."
       },
       {
         "title": "Complete and confirm your commitments",
@@ -739,59 +1028,141 @@ const copy={
         "alt": "Request removal form in the Chen Meide test area"
       },
       {
-        "title": "Fill in weekly reports",
-        "body": "Choose the reporting week, then open a commitment under “This week to fill” or “To fill” and complete the weekly report.",
+        "title": "Fill in and save a draft",
+        "body": "Choose the reporting week, then open a commitment under “本週待填” or “待填寫”.",
         "items": [
           [
-            "Enter this week’s progress",
-            "Describe what was completed, is still in progress, or is awaiting a response. This field is required."
+            "Enter progress and next week’s plan",
+            "Both “本週進度” (This week’s progress) and “下週預計” (Next week’s plan) are required. Describe completed work, work in progress, or pending responses, and explain what you plan to do next week. You can refer to “上週回報” on the left; review and update any copied text.",
+            {
+              "image": "daily-fill-20261007.jpg",
+              "alt": "本週進度、下週預計與暫存草稿",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  43,
+                  10,
+                  55,
+                  29,
+                  "1"
+                ],
+                [
+                  43,
+                  48,
+                  55,
+                  29,
+                  "2"
+                ],
+                [
+                  72.5,
+                  88.5,
+                  11,
+                  10,
+                  "3"
+                ]
+              ]
+            }
           ],
           [
-            "Enter next week’s plan",
-            "State the work you plan to move forward next week. This field is required."
+            "Save daily updates",
+            "You can record updates each day and select “暫存草稿” (Save draft). A draft can be edited further. Saving a draft does not submit your report; select “提交本週回報” when ready."
           ],
           [
-            "Indicate whether help is needed",
-            "Select “需要協助／待協調” when coordination is needed. You may also expand “新增佐證／補充資料” to add supporting information."
-          ],
-          [
-            "Save or submit",
-            "Select “暫存草稿” if the report is unfinished. When the content is correct, select “提交本週回報”."
+            "Add support needs and evidence",
+            "Select “需要協助／待協調” if assistance is needed, and explain who should help or what decision is required. Expand “新增佐證／補充資料（選填）” to add supporting information and this week’s NAS evidence path. If the project NAS folder is marked required, complete it before submitting.",
+            {
+              "image": "daily-support-20261007.jpg",
+              "alt": "佐證資料、本週 NAS 路徑與專案資料夾",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  43,
+                  7,
+                  55,
+                  48,
+                  "1"
+                ],
+                [
+                  0.5,
+                  88,
+                  98,
+                  11,
+                  "2"
+                ]
+              ]
+            }
           ]
-        ],
-        "image": "test-weekly-edit.png",
-        "alt": "Weekly report entry screen in the Chen Meide test area"
+        ]
       },
       {
-        "title": "Check submission and reply to comments",
-        "body": "After submitting, check that the commitment card shows “本週已回覆”, then review the version time and comments.",
+        "title": "Submit and edit a report",
+        "body": "Submit the completed report, then check its status.",
         "items": [
           [
-            "Check the submission status",
-            "“本週已回覆” means this week’s report has been submitted. It does not mean the whole commitment is complete."
+            "Submit the report",
+            "Review this week’s progress, next week’s plan, and any required information, then select “提交本週回報” (Submit weekly report).",
+            {
+              "image": "daily-fill-20261007.jpg",
+              "alt": "提交本週回報按鈕",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  83.7,
+                  88.5,
+                  14.5,
+                  10,
+                  "1"
+                ]
+              ]
+            }
+          ],
+          [
+            "Check submission",
+            "Confirm that the item shows “本週已回覆”. This means the report for the selected week has been submitted; it does not mean the entire commitment is complete.",
+            {
+              "image": "daily-submitted-20261007.jpg",
+              "alt": "已提交回報狀態與截止後鎖定提示",
+              "local": true,
+              "customMarks": true,
+              "marks": [
+                [
+                  88,
+                  16,
+                  10,
+                  7,
+                  "1"
+                ],
+                [
+                  1,
+                  1,
+                  97,
+                  13,
+                  "2"
+                ]
+              ]
+            }
           ],
           [
             "Edit a submitted report",
-            "If a correction is needed, select “修改本週回報”, update the content, and submit it again."
-          ],
-          [
-            "Review versions",
-            "Expand “本週版本紀錄” to check the submitted version and time."
-          ],
-          [
-            "Review and reply to comments",
-            "If Taipei headquarters leaves a comment, review and handle it in “留言與回覆”."
+            "Before the deadline, select “修改本週回報”, update the content, and submit again. Submitted reports are locked after the deadline, but you can still reply to management comments below.",
+            {
+              "image": "test-weekly-version.png",
+              "alt": "截止前的修改本週回報按鈕",
+              "customMarks": true,
+              "marks": [
+                [
+                  85,
+                  38,
+                  10,
+                  8,
+                  "1"
+                ]
+              ]
+            }
           ]
-        ],
-        "images": [
-          {
-            "image": "test-weekly-submitted.png",
-            "alt": "Submitted weekly report status and content in the Chen Meide test area"
-          },
-          {
-            "image": "test-weekly-version.png",
-            "alt": "Weekly report version history and comments in the Chen Meide test area"
-          }
         ]
       },
       {
@@ -837,6 +1208,24 @@ const copy={
         ],
         "image": "test-overview.png",
         "alt": "Reporting-week menu and deadline"
+      },
+      {
+        "title": "Read and reply to comments",
+        "body": "After reporting, check “留言與回覆” for questions from Taipei headquarters.",
+        "items": [
+          [
+            "Read the comment",
+            "Open the relevant commitment and read the questions and requested information under “留言與回覆”. If it shows “尚無留言”, no reply is needed yet."
+          ],
+          [
+            "Write and send a reply",
+            "Enter the update or requested information below the relevant comment, review it, then select “送出回覆” (Send reply)."
+          ],
+          [
+            "Check your reply",
+            "Make sure the reply appears below that comment. If the weekly report also needs updating, follow “Submit and edit a report”."
+          ]
+        ]
       }
     ],
     "development": "In development",
@@ -846,13 +1235,13 @@ const copy={
   }
 };
 const pageFiles=['index.html','maintain.html','daily.html','overview.html'];
-const ids=['login','maintain-item','add','transfer','remove','weekly','submission','dashboard-summary','reporting-week'];
-const groups=[{id:'login-group',nav:0,start:0,end:1},{id:'maintain',nav:1,start:1,end:5},{id:'daily',nav:2,start:5,end:7},{id:'overview',nav:3,start:7,end:9}];
+const ids=['login','maintain-item','add','transfer','remove','weekly','submission','dashboard-summary','reporting-week','comments'];
+const groups=[{id:'login-group',nav:0,start:0,end:1},{id:'maintain',nav:1,start:1,end:5},{id:'daily',nav:2,start:5,end:7,indices:[5,6,9]},{id:'overview',nav:3,start:7,end:9}];
 const isPreview=document.body.dataset.environment==='preview';
 const pageIndex=Number(document.body.dataset.page||0);
 let activeGroup=pageIndex;
 const legacyHash=String(location.hash||'').replace('#','');
-const legacyPage=groups.findIndex(g=>g.id===legacyHash||ids.slice(g.start,g.end).includes(legacyHash));
+const legacyPage=groups.findIndex(g=>g.id===legacyHash||(g.indices||Array.from({length:g.end-g.start},(_,j)=>g.start+j)).map(i=>ids[i]).includes(legacyHash));
 if(pageIndex===0&&legacyPage>0)location.replace(pageFiles[legacyPage]);
 let current='zh-Hant';
 try{const saved=localStorage.getItem('commitment-guide-language');if(copy[saved])current=saved;}catch{}
@@ -872,9 +1261,9 @@ const guideMarks={
 };
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const emailLinks=s=>esc(s).replace(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi,email=>`<a href="mailto:${email}">${email}</a>`);
-function picture(s,i,k=0,item=false){const key=`${i}:${item?'item':'step'}:${k}`;const marks=s.annotated?[]:guideMarks[key]||guideMarks[`${i}:step`]||s.marks||[];return `<span class="image-wrap"><img src="${s.local?s.image:(isPreview?'../':'')+'assets/'+s.image}?v=7" alt="${esc(s.alt)}" ${i?'loading="lazy"':''}>${marks.map(m=>`<span aria-hidden="true" class="mark" style="left:${m[0]}%;top:${m[1]}%;width:${m[2]}%;height:${m[3]}%"><em>${m[4]}</em></span>`).join('')}</span>`;}
+function picture(s,i,k=0,item=false){const key=`${i}:${item?'item':'step'}:${k}`;const marks=s.annotated?[]:s.customMarks?(s.marks||[]):guideMarks[key]||guideMarks[`${i}:step`]||s.marks||[];return `<span class="image-wrap"><img src="${s.local?s.image:(isPreview?'../':'')+'assets/'+s.image}?v=7" alt="${esc(s.alt)}" ${s.ratio?`style="aspect-ratio:${s.ratio};object-fit:cover;object-position:50% 48%"`:""} ${i?'loading="lazy"':''}>${marks.map(m=>`<span aria-hidden="true" class="mark" style="left:${m[0]}%;top:${m[1]}%;width:${m[2]}%;height:${m[3]}%"><em>${m[4]}</em></span>`).join('')}</span>`;}
 function render(lang){current=lang;const c=copy[lang];document.documentElement.lang=lang;document.body.classList.toggle('en-ui',lang==='en');document.title=(isPreview?c.testTitle+' | ':'')+c.nav[pageIndex]+' | '+c.title;document.querySelector('meta[name=description]').content=c.lead;document.querySelectorAll('[data-i]').forEach(e=>e.textContent=c[e.dataset.i]);document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));document.querySelectorAll('.system-link').forEach(a=>a.href=SYSTEM);document.querySelector('.steps-nav').setAttribute('aria-label',lang==='en'?'Guide steps':lang==='zh-Hans'?'教学步骤':'教學步驟');document.querySelector('.steps-nav').innerHTML=c.nav.map((n,i)=>{const disabled=!isPreview&&i>=2;const content=`<b>${String(i+1).padStart(2,'0')}</b><strong>${esc(n)}</strong><span>${esc(disabled?c.development:c.navDesc[i])}</span>`;return disabled?`<div class="nav-disabled" aria-disabled="true">${content}</div>`:`<a href="${pageFiles[i]}" data-group="${i}" aria-current="${i===activeGroup?'page':'false'}">${content}</a>`}).join('');
-document.querySelector('#sections').innerHTML=groups.filter((_,gi)=>gi===pageIndex).map((g)=>{const gi=pageIndex;return `<div class="guide-group ${gi===activeGroup?'active':''}" id="${g.id}" ${gi===activeGroup?'':'hidden'}><div class="group-heading"><span>${String(gi+1).padStart(2,'0')}</span><h2>${esc(c.nav[gi])}</h2></div>${gi===1?`<nav class="section-shortcuts" aria-label="${lang==='en'?'Section shortcuts':lang==='zh-Hans'?'段落捷径':'段落捷徑'}">${c.steps.slice(1,5).map((s,n)=>`<a href="#${ids[n+1]}"><span>${String(n+1).padStart(2,'0')}</span> ${esc(s.title)}</a>`).join('')}</nav>`:''}${c.steps.slice(g.start,g.end).map((s,j)=>{const i=g.start+j;const shots=s.images||[s];return `<section class="step ${s.pending?'pending':''}" id="${ids[i]}"><span class="step-num">${String(j+1).padStart(2,'0')}${s.pending?'<span class="pending-label">PENDING</span>':''}</span><h3 class="step-title">${esc(s.title)}</h3><p>${esc(s.body)}</p>${s.items?`<ol class="items">${s.items.map(([t,b,shot],itemIndex)=>`<li><h3>${esc(t)}</h3><p>${esc(b)}</p>${shot?`<figure class="shot item-shot"><button class="shot-button" type="button" data-image="${i}" data-item="${itemIndex}" aria-label="${esc(c.zoom+': '+shot.alt)}">${picture(shot,i,itemIndex,true)}</button><figcaption>${esc(c.zoom)}</figcaption></figure>`:''}</li>`).join('')}</ol>`:''}${s.compare?`<div class="comparison">${s.compare.map(([t,b])=>`<div><h3>${esc(t)}</h3><p>${esc(b)}</p></div>`).join('')}</div>`:''}${s.note?`<p class="note important">${emailLinks(s.note)}</p>`:''}${s.after?`<p>${esc(s.after)}</p>`:''}${s.image||s.images?shots.map((shot,k)=>`<figure class="shot"><button class="shot-button" type="button" data-image="${i}" data-shot="${k}" aria-label="${esc(c.zoom+': '+shot.alt)}">${picture(shot,i,k)}</button><figcaption>${esc(c.zoom)}</figcaption></figure>`).join(''):''}${gi===1?`<a class="section-back" href="#maintain">${esc(c.back)} ↑</a>`:''}</section>`}).join('')}<a class="screen-back" href="#top">${esc(c.back)} ↑</a></div>`}).join('');
+document.querySelector('#sections').innerHTML=groups.filter((_,gi)=>gi===pageIndex).map((g)=>{const gi=pageIndex;return `<div class="guide-group ${gi===activeGroup?'active':''}" id="${g.id}" ${gi===activeGroup?'':'hidden'}><div class="group-heading"><span>${String(gi+1).padStart(2,'0')}</span><h2>${esc(c.nav[gi])}</h2></div>${gi===1||gi===2?`<nav class="section-shortcuts" aria-label="${lang==='en'?'Section shortcuts':lang==='zh-Hans'?'段落捷径':'段落捷徑'}">${(g.indices||Array.from({length:g.end-g.start},(_,j)=>g.start+j)).map((i,n)=>`<a href="#${ids[i]}"><span>${String(n+1).padStart(2,'0')}</span> ${esc(c.steps[i].title)}</a>`).join('')}</nav>`:''}${(g.indices||Array.from({length:g.end-g.start},(_,j)=>g.start+j)).map((i,j)=>{const s=c.steps[i];const shots=s.images||[s];return `<section class="step ${s.pending?'pending':''}" id="${ids[i]}"><span class="step-num">${String(j+1).padStart(2,'0')}${s.pending?'<span class="pending-label">PENDING</span>':''}</span><h3 class="step-title">${esc(s.title)}</h3><p>${esc(s.body)}</p>${s.items?`<ol class="items">${s.items.map(([t,b,shot],itemIndex)=>`<li><h3>${esc(t)}</h3><p>${esc(b)}</p>${shot?`<figure class="shot item-shot"><button class="shot-button" type="button" data-image="${i}" data-item="${itemIndex}" aria-label="${esc(c.zoom+': '+shot.alt)}">${picture(shot,i,itemIndex,true)}</button><figcaption>${esc(c.zoom)}</figcaption></figure>`:''}</li>`).join('')}</ol>`:''}${s.compare?`<div class="comparison">${s.compare.map(([t,b])=>`<div><h3>${esc(t)}</h3><p>${esc(b)}</p></div>`).join('')}</div>`:''}${s.note?`<p class="note important">${emailLinks(s.note)}</p>`:''}${s.after?`<p>${esc(s.after)}</p>`:''}${s.image||s.images?shots.map((shot,k)=>`<figure class="shot"><button class="shot-button" type="button" data-image="${i}" data-shot="${k}" aria-label="${esc(c.zoom+': '+shot.alt)}">${picture(shot,i,k)}</button><figcaption>${esc(c.zoom)}</figcaption></figure>`).join(''):''}${gi===1||gi===2?`<a class="section-back" href="#${g.id}">${esc(c.back)} ↑</a>`:''}</section>`}).join('')}<a class="screen-back" href="#top">${esc(c.back)} ↑</a></div>`}).join('');
 if(!isPreview&&pageIndex>=2)document.querySelector('#sections').innerHTML=`<section class="step development-message"><span class="step-num">${String(pageIndex+1).padStart(2,'0')} · ${esc(c.nav[pageIndex])}</span><h2>${esc(c.development)}</h2><p>${esc(c.developmentText)}</p><a href="index.html">${esc(c.nav[0])}</a></section>`;document.querySelector('#close-zoom').textContent=c.close;}
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{try{localStorage.setItem('commitment-guide-language',b.dataset.lang)}catch{}render(b.dataset.lang)}));
 const dialog=document.querySelector('#zoom');
