@@ -21,3 +21,6 @@ footer a{display:inline-flex;align-items:center;padding:9px 16px;border:1px soli
 .environment-banner{padding:10px 28px;background:var(--soft);border-bottom:1px solid #edd0d5;color:var(--red);font-weight:700;text-align:center}
 @media(max-width:900px){.steps-nav{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.steps-nav{grid-template-columns:1fr}}
+
+/* Approved compact screenshots: preserve native scale and show the full frame. */
+.image-wrap{margin-inline:auto}.image-wrap img{max-width:100%;height:auto}.shot-button{background:#fff}#zoom-content .image-wrap{min-width:0}#zoom-content img{width:100%;height:auto}.items .item-shot{margin-top:20px}
