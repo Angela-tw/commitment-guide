@@ -275,7 +275,7 @@ const copy={
             "查看總部／上級主管的釐清回覆，以及內容變更、轉交與取消承諾的待審申請；更完整的情況可從「我的申請紀錄」追蹤。"
           ]
         ],
-        "image": "compact-04-20261013.png",
+        "image": "compact-04-manager-20261013.png",
         "alt": "週別、截止時間及主管面板",
         "local": true,
         "annotated": true,
@@ -563,7 +563,7 @@ const copy={
             "查看总部／上级主管的厘清回复，以及内容变更、转交与取消承诺的待审申请；更完整的情况可从“我的申请记录”追踪。"
           ]
         ],
-        "image": "compact-04-20261013.png",
+        "image": "compact-04-manager-20261013.png",
         "alt": "周别、截止时间及主管面板",
         "local": true,
         "annotated": true,
@@ -851,7 +851,7 @@ const copy={
             "Check clarification replies from head office or senior managers and pending change, transfer and removal requests. Use “我的申請紀錄” (My requests) for more detail."
           ]
         ],
-        "image": "compact-04-20261013.png",
+        "image": "compact-04-manager-20261013.png",
         "alt": "Reporting week, deadline and manager dashboard",
         "local": true,
         "annotated": true,
